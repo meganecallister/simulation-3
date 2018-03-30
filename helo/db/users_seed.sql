@@ -1,8 +1,9 @@
 CREATE TABLE IF NOT EXISTS Users (
     id SERIAL PRIMARY KEY,
-    userName TEXT,
-    password TEXT
+    username TEXT,
+    password TEXT,
+    img TEXT,
 );
 
-INSERT INTO Users (userName, password)
-VALUES ('megcall', 'bunnynibble');
+INSERT INTO Users (username, password, img)
+VALUES ('megcall', 'bunnynibble', 'https://pbs.twimg.com/profile_images/965036344216039424/NQOVAYZ-_400x400.jpg');
