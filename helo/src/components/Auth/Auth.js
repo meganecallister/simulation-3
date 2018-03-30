@@ -16,13 +16,13 @@ class Auth extends Component {
 
     }
 
-    register() {
-        console.log("I'm registering...")
-        axios.post('/api/register')
+    // register() {
+    //     console.log("I'm registering...")
+    //     axios.post('/api/register')
 
-        // this.props.history.push('/dashboard');
-        <Link to='/dashboard'></Link>
-    }
+    //     // this.props.history.push('/dashboard');
+    //     <Link to='/dashboard'></Link>
+    // }
 
 
 

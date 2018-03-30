@@ -16,6 +16,6 @@ massive(CONNECTION_STRING).then( db => {
     app.set('db', db);
 })
 
-app.post('api/register', hc.register);
+// app.post('api/register', hc.register);
 
 app.listen(SERVER_PORT, () => console.log(`${SERVER_PORT} chipmunks gnawing on acorns.`))

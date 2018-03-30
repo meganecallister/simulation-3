@@ -5,10 +5,10 @@ import App from './App';
 import { HashRouter } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux';
-import store from './store';
+import store from './ducks/store';
 
 ReactDOM.render(
-    <Provider>
+    <Provider store={ store }>
         <HashRouter>
             <App /> 
         </HashRouter>

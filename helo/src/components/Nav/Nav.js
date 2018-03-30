@@ -13,10 +13,12 @@ function Nav() {
     )
 }
 
-function mapStateToProps(state)
+function mapStateToProps(state) {
     return {
         username: state.username,
         img: state.img
-    }
+    }    
+}
 
-export default connect(mapStateToProps)(Private);
+
+export default connect(mapStateToProps)(Nav);
